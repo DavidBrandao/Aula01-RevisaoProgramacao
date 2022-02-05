@@ -4,7 +4,7 @@
  * Aula 01 - 04/02/2022
  * */
 
-package test01;
+package aula01;
 
 public class HelloWorld {
 
@@ -16,23 +16,22 @@ public class HelloWorld {
 		Operators op = new Operators();
 		Lista01 lista = new Lista01();
 
-	
-		
-		//Using SentReveive Class
-			//message.HelloWorldJOption();
-			//message.GetDataJOption();
-			//message.GetDataScanner();
-			//message.HelloWorldScanner();
+	/*	//Using SentReveive Class
+			message.HelloWorldJOption();
+			message.GetDataJOption();
+			message.GetDataScanner();
+			message.HelloWorldScanner();
 		
 		//Printing previous variables
-			//dataType.PrintMyData();
-			//dataType.PrintStringLength("Olá");
-			//dataType.PrintCharPosition("David", 2);
-			//dataType.CompareToExample("first", "second");
+			dataType.PrintMyData();
+			dataType.PrintStringLength("Olá");
+			dataType.PrintCharPosition("David", 2);
+			dataType.CompareToExample("first", "second");
 		
 		//Using Logic Operators
-			//op.BasicOperators(10, 20);
-			//op.logicOperators(30, 20, 10);
+			op.BasicOperators(10, 20);
+			op.logicOperators(30, 20, 10);
+	*/
 			
 		//Exercises 01
 			lista.Q01A();
