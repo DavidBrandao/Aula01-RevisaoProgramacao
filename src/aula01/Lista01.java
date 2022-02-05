@@ -24,6 +24,33 @@ public class Lista01 {
 	private double shippingBase = 3.0;
 	
 	
+public void Q0T() {
+		
+		double bookWithDiscount = bookPrice - (bookPrice * discount);
+		double shipping59Copies = 59 * 0.75;
+		double bookPrice59 = bookWithDiscount * (59);
+		double singleBook = bookWithDiscount + shippingBase;
+		
+		double valor60 = (bookWithDiscount + shippingBase) + ((bookWithDiscount + 0.75) *59);
+		JOptionPane.showMessageDialog(null, valor60);
+		
+		double valor60Normal = (bookPrice + shippingBase) + ((bookPrice + 0.75) *59);
+		JOptionPane.showMessageDialog(null, valor60Normal);
+
+		
+		
+		double value = singleBook + bookPrice59 + shipping59Copies;
+		
+		for(int i=0; i<60; i++) {
+			shippingBase += 0.75; 
+		}
+		
+		JOptionPane.showMessageDialog(null, "Book Price: " + bookPrice + 
+											"\nShipping price to 60 copies: " + shippingBase +
+											"\nBook With Discount:" + bookWithDiscount +
+											"\nBook With Total Value:" + value);		
+	}
+	
 	public void Q01A() {
 		//Minutes to seconds
 		int totalSeconds = (int) (MinutesToSeconds(minutes) + seconds);
@@ -50,20 +77,19 @@ public class Lista01 {
 	public void Q02() {
 		
 		double bookWithDiscount = bookPrice - (bookPrice * discount);
+		double singleBook = bookPrice + shippingBase;
+		double singleBookDiscount = bookWithDiscount + shippingBase;
 		double shipping59Copies = 59 * 0.75;
-		double bookPrice59 = bookWithDiscount * (59);
-		double singleBook = bookWithDiscount + shippingBase;
+		double bookPrice59 = bookPrice * 59;
+		double bookPrice59Discount = bookWithDiscount * (59);
 		
-		double value = singleBook + bookPrice59 + shipping59Copies;
-		
-		for(int i=0; i<60; i++) {
-			shippingBase += 0.75; 
-		}
-		
+		double totalWithoutDiscount = singleBook + bookPrice59 + shipping59Copies;
+		double totalWithDiscount = singleBookDiscount + bookPrice59Discount + shipping59Copies;
+
 		JOptionPane.showMessageDialog(null, "Book Price: " + bookPrice + 
-											"\nShipping price to 60 copies: " + shippingBase +
 											"\nBook With Discount:" + bookWithDiscount +
-											"\nBook With Total Value:" + value);		
+											"\nBook Total Value without discount: " + totalWithoutDiscount +
+											"\nBook Total Value:" + totalWithDiscount);		
 	}
 	
 	private double MinutesToSeconds(double minutes) {
