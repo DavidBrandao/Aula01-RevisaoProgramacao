@@ -6,7 +6,7 @@
 
 package aula01;
 
-public class HelloWorld {
+public class Aula01 {
 
 	public static void main(String[] args) {
 		
@@ -37,7 +37,7 @@ public class HelloWorld {
 			//lista.Q01A();
 			//lista.Q01B();
 			//lista.Q01C();
-			lista.Q02();
+			//lista.Q02();
 	}
 
 }

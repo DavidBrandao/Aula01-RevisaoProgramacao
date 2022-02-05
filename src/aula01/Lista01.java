@@ -81,5 +81,4 @@ public class Lista01 {
 	private double MinutesToHour(double minutes) {
 		return minutes/60;
 	}
-
 }
