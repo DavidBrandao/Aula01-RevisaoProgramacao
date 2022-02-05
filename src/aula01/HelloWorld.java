@@ -34,9 +34,9 @@ public class HelloWorld {
 	*/
 			
 		//Exercises 01
-			lista.Q01A();
-			lista.Q01B();
-			lista.Q01C();
+			//lista.Q01A();
+			//lista.Q01B();
+			//lista.Q01C();
 			lista.Q02();
 	}
 

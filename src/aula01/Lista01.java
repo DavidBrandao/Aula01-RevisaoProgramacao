@@ -19,7 +19,7 @@ public class Lista01 {
 	private double minutes = 42;
 	private double seconds = 42;
 	private double km = 10;
-	private double bookPrice = 42.95;
+	private double bookPrice = 24.95;
 	private double discount = 0.4;
 	private double shippingBase = 3.0;
 	
@@ -50,17 +50,20 @@ public class Lista01 {
 	public void Q02() {
 		
 		double bookWithDiscount = bookPrice - (bookPrice * discount);
+		double shipping59Copies = 59 * 0.75;
+		double bookPrice59 = bookWithDiscount * (59);
+		double singleBook = bookWithDiscount + shippingBase;
+		
+		double value = singleBook + bookPrice59 + shipping59Copies;
 		
 		for(int i=0; i<60; i++) {
 			shippingBase += 0.75; 
 		}
 		
-		double bookTotalValue = bookWithDiscount + shippingBase;
-
 		JOptionPane.showMessageDialog(null, "Book Price: " + bookPrice + 
 											"\nShipping price to 60 copies: " + shippingBase +
 											"\nBook With Discount:" + bookWithDiscount +
-											"\nBook With Total Value:" + bookTotalValue);		
+											"\nBook With Total Value:" + value);		
 	}
 	
 	private double MinutesToSeconds(double minutes) {
@@ -79,12 +82,4 @@ public class Lista01 {
 		return minutes/60;
 	}
 
-	
-	
-
-	
-	
-	
-	
-	
 }
