@@ -10,13 +10,20 @@ public class Aula01 {
 
 	public static void main(String[] args) {
 		
+		//Exercises 01
+		Lista01 lista = new Lista01();
+		lista.Q01A();
+		lista.Q01B();
+		lista.Q01C();
+		lista.Q02();
+		
+/*
 		//Initializing classes
 		DataType dataType = new DataType();
 		SentReceive message = new SentReceive();
 		Operators op = new Operators();
-		Lista01 lista = new Lista01();
 
-	/*	//Using SentReveive Class
+		//Using SentReveive Class
 			message.HelloWorldJOption();
 			message.GetDataJOption();
 			message.GetDataScanner();
@@ -31,14 +38,7 @@ public class Aula01 {
 		//Using Logic Operators
 			op.BasicOperators(10, 20);
 			op.logicOperators(30, 20, 10);
-	*/
-			
-		//Exercises 01
-			//lista.Q01A();
-			//lista.Q01B();
-			//lista.Q01C();
-			//lista.Q02();
-		
+*/		
 	}
 
 }
