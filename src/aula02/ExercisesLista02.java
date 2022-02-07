@@ -2,7 +2,7 @@ package aula02;
 
 import javax.swing.JOptionPane;
 
-public class Lista02 {
+public class ExercisesLista02 {
 
 	
 	public void Q1(){
@@ -63,16 +63,17 @@ public class Lista02 {
 	}
 	
 	public void Q6() {
+		double[] salto = new double[5];
+		double totalSalto = 0;
 		String nome = "test";
-		int[] salto = new int[5];
-		int totalSalto = 0;
-		boolean controle = false;
 		
-		while(controle == false) {
-			nome = JOptionPane.showInputDialog(null, "Digite o nome do atleta");
+		while(!nome.isEmpty()) {
 			
-			while(!nome.isEmpty()) {
-					
+			nome = JOptionPane.showInputDialog(null, "Digite o nome do atleta! \nPara sair, deixe o campo em branco.");
+			
+			if(nome.isEmpty()) {
+				JOptionPane.showMessageDialog(null, "Nenhum nome informado!\nSaindo...");
+			} else {
 				for(int i=0; i<5; i++) {
 					salto[i] = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite o "+ (i+1) +" salto do atleta"));
 					totalSalto += salto[i];
@@ -81,14 +82,8 @@ public class Lista02 {
 				JOptionPane.showMessageDialog(null, "Nome do atleta: "+nome +
 													"\nSaltos: " + salto[0]+ " - " + salto[1]+ " - " + salto[2]+ " - " + salto[3]+ " - "+ salto[4] + 
 												    "\nMedia Saltos: " + (totalSalto/5));
-				
 			}
 			
-			if(nome.isEmpty()) {
-				controle = true;
-			}
 		}
-		
 	}
-	
 }

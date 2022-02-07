@@ -1,6 +1,6 @@
 package aula01;
 
-public class Operators {
+public class ReviewOperators {
 	
 	
 	public void BasicOperators(int a, int b) {

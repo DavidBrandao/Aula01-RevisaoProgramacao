@@ -2,7 +2,7 @@ package aula02;
 
 import javax.swing.JOptionPane;
 
-public class ArrayStructure {
+public class ReviewArrayStructure {
 	
 	public void unidimensionalArrays() {
 		

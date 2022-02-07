@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
-public class SentReceive {
+public class ReviewSentReceive {
 
 
 	Scanner sc = new Scanner(System.in);

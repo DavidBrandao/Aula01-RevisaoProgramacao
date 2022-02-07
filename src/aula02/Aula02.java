@@ -13,7 +13,7 @@ public class Aula02 {
 	public static void main(String[] args) {
 		
 		// Lista 02
-		Lista02 lista = new Lista02();
+		ExercisesLista02 lista = new ExercisesLista02();
 		lista.Q1();
 		lista.Q2();
 		lista.Q3();
@@ -21,13 +21,12 @@ public class Aula02 {
 		lista.Q5();
 		lista.Q6();
 
-
 		//Lista 03 - Questão 01 
-		Lista03 lista03 = new Lista03();
+		ExercisesLista03 lista03 = new ExercisesLista03();
 		JOptionPane.showMessageDialog(null, lista03.ConvertBirthDate());
 				
 		//Lista 03 - Questão 02 
-		Pessoa p = new Pessoa();
+		ExercisesPessoa p = new ExercisesPessoa();
 		
 		//Inserindo valores para o objeto p
 		p.setNome("David");
@@ -47,22 +46,23 @@ public class Aula02 {
 		//Imprimindo informações atualizadas
 		p.ImprimirInfo(p);
 
+
 		/*
-		LogicalStructures logic = new LogicalStructures();
+		ReviewLogicalStructures logic = new LogicalStructures();
 			logic.IfExample();
 			logic.SwitchExample();
 			
-		RepetitionStructures repeat = new RepetitionStructures();
+		ReviewRepetitionStructures repeat = new RepetitionStructures();
 			repeat.ForExample();
 			repeat.WhileExample();
 			repeat.DoWhileExample();
 		
-		ArrayStructure arrays = new ArrayStructure();
+		ReviewArrayStructure arrays = new ArrayStructure();
 			arrays.unidimensionalArrays();
 			arrays.matrixExample();
 		
 		//Instanciando a classe
-		Cachorro toto = new Cachorro();
+		ReviewCachorro toto = new Cachorro();
 		
 		// Informando valores para os atributos
 		toto.setAcessorios("Relógio");

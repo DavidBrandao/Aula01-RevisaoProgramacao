@@ -2,7 +2,7 @@ package aula01;
 
 import javax.swing.JOptionPane;
 
-public class Lista01 {
+public class ExercisesLista01 {
 
 	/*
 	 * 1 - Calcule o que se pede

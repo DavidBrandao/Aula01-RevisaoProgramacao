@@ -12,7 +12,7 @@ package aula02;
 
 import javax.swing.JOptionPane;
 
-public class Lista03 {
+public class ExercisesLista03 {
 	
 	public String ConvertBirthDate() {
 		

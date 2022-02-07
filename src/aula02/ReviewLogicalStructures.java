@@ -2,7 +2,7 @@ package aula02;
 
 import javax.swing.JOptionPane;
 
-public class LogicalStructures {
+public class ReviewLogicalStructures {
 	
 	public void IfExample() {
 		

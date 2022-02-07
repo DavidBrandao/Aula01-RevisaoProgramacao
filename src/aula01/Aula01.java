@@ -11,7 +11,7 @@ public class Aula01 {
 	public static void main(String[] args) {
 		
 		//Exercises 01
-		Lista01 lista = new Lista01();
+		ExercisesLista01 lista = new ExercisesLista01();
 		lista.Q01A();
 		lista.Q01B();
 		lista.Q01C();
@@ -19,9 +19,9 @@ public class Aula01 {
 		
 /*
 		//Initializing classes
-		DataType dataType = new DataType();
-		SentReceive message = new SentReceive();
-		Operators op = new Operators();
+		ReviewDataType dataType = new DataType();
+		ReviewSentReceive message = new SentReceive();
+		ReviewOperators op = new Operators();
 
 		//Using SentReveive Class
 			message.HelloWorldJOption();

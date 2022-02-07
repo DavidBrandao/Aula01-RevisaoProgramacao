@@ -11,7 +11,7 @@ package aula02;
 
 import javax.swing.JOptionPane;
 
-public class Pessoa {
+public class ExercisesPessoa {
 	
 	private String nome;
 	private int idade;
@@ -79,7 +79,7 @@ public class Pessoa {
 		JOptionPane.showMessageDialog(null, "Agora você tem " + getAltura() + " metros.");
 	}
 	
-	public void ImprimirInfo(Pessoa p) {
+	public void ImprimirInfo(ExercisesPessoa p) {
 		JOptionPane.showMessageDialog(null, "Nome: " + p.getNome()+
 				                            "\nIdade: " + p.getIdade()+
 				                            "\nAltura: "+ p.getAltura()+

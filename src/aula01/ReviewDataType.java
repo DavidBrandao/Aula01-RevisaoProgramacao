@@ -2,7 +2,7 @@ package aula01;
 
 import javax.swing.JOptionPane;
 
-public class DataType {
+public class ReviewDataType {
 	
 	//Variables
 	private String myString = "David";

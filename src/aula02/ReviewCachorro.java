@@ -2,7 +2,7 @@ package aula02;
 
 import javax.swing.JOptionPane;
 
-public class Cachorro {
+public class ReviewCachorro {
 	
 	
 	private String cor;

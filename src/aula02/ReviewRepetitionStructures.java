@@ -1,6 +1,6 @@
 package aula02;
 
-public class RepetitionStructures {
+public class ReviewRepetitionStructures {
 	
 	
 	
