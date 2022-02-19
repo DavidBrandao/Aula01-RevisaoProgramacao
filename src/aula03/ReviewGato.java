@@ -1,5 +1,7 @@
 package aula03;
 
+import javax.swing.JOptionPane;
+
 public class ReviewGato extends ReviewAnimal{
 	
 
@@ -26,6 +28,14 @@ public class ReviewGato extends ReviewAnimal{
 	}
 	public void setCorRabo(String corRabo) {
 		this.corRabo = corRabo;
+	}
+	
+	public void Caminhar() {
+		JOptionPane.showMessageDialog(null, "Caminhando com meu gato");
+	}
+	
+	public void Correr() {
+		JOptionPane.showMessageDialog(null, "Correndo como um gato");
 	}
 	
 	

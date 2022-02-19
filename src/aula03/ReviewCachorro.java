@@ -45,5 +45,12 @@ public class ReviewCachorro extends ReviewAnimal {
 		JOptionPane.showMessageDialog(null, "Exatamente dez e pôca");
 	}
 	
+	public void Caminhar() {
+		JOptionPane.showMessageDialog(null, "Caminhando com meu dog");
+	}
+	
+	public void Correr() {
+		JOptionPane.showMessageDialog(null, "Correndo como um cachorro");
+	}	
 	
 }

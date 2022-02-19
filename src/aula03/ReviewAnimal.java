@@ -50,8 +50,4 @@ public class ReviewAnimal {
 		JOptionPane.showMessageDialog(null, "Correndo");
 	}
 	
-
-	
-	
-	
 }
