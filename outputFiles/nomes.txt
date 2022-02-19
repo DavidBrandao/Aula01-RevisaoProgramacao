@@ -1,9 +1,3 @@
 David
-LoreIpsum
-AAAAAAADavid
-LoreIpsum
-AAAAAAADavid
-LoreIpsum
-AAAAAAADavid
-LoreIpsum
-AAAAAAA
+Software Automation
+Software Testing
